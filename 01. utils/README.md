@@ -9,4 +9,4 @@
   - Ejemplo: `echo "Hola, mundo"`
 
 - `man`: Mostrar el manual de un comando.
-  - Ejemplo: `man nombre_del_comando`
+  - Ejemplo: `man [nombre_del_comando]`

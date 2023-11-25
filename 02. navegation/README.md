@@ -17,7 +17,7 @@
 
 - `cd`: Cambiar de directorio.
 
-  - Ejemplo: `cd nombre_del_directorio`
+  - Ejemplo: `cd [nombre_del_directorio]`
 
 - `cd ..`: Retroceder un nivel en la jerarquía de directorios.
 
