@@ -1,6 +1,6 @@
 # Comandos de manipulación de archivos y carpetas
 
-### Crear y editar Archivos
+### Crear y editar archivos
 
 - `touch`: Crear un archivo vacío o actualizar la fecha de modificación.
 
@@ -9,12 +9,12 @@
 - `nano` o `vim`: Editar un archivo en un editor de texto en la terminal.
   - Ejemplo: `nano [nombre_del_archivo]` o `vim [nombre_del_archivo]`
 
-### Ver el Contenido de un Archivo
+### Ver el contenido de un archivo
 
 - `cat`: Mostrar el contenido completo de un archivo.
   - Ejemplo: `cat [nombre_del_archivo]`
 
-### Copiar, Mover y Renombrar Archivos
+### Copiar, mover y renombrar archivos
 
 - `cp`: Copiar archivos.
 
@@ -23,17 +23,17 @@
 - `mv`: Mover o renombrar archivos.
   - Ejemplo: `mv [archivo_origen] [destino]`
 
-### Eliminar Archivos
+### Eliminar archivos
 
 - `rm`: Eliminar archivos.
   - Ejemplo: `rm [nombre_del_archivo]`
 
-### Crear y Editar Directorios
+### Crear y editar directorios
 
 - `mkdir`: Crear un nuevo directorio.
   - Ejemplo: `mkdir [nombre_del_directorio]`
 
-### Copiar, Mover y Renombrar Directorios
+### Copiar, mover y renombrar directorios
 
 - `cp -r`: Copiar directorios y su contenido de manera recursiva.
 
@@ -42,7 +42,7 @@
 - `mv`: Mover o renombrar directorios.
   - Ejemplo: `mv [directorio_origen] [destino]`
 
-### Eliminar Directorios
+### Eliminar directorios
 
 - `rmdir`: Eliminar un directorio vacío.
 

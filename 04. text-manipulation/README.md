@@ -1,6 +1,6 @@
 # Comandos de manipulación de textos
 
-### Filtrado y Búsqueda de Texto
+### Filtrado y búsqueda de texto
 
 - `grep`: Buscar texto dentro de archivos.
 
@@ -9,7 +9,7 @@
 - `grep -i`: Realizar una búsqueda insensible a mayúsculas y minúsculas.
   - Ejemplo: `grep -i "Texto" [nombre_del_archivo]`
 
-### Conteo de Palabras, Líneas y Caracteres
+### Conteo de palabras, líneas y caracteres
 
 - `wc`: Contar palabras, líneas y caracteres en un archivo.
   - Ejemplo: `wc [nombre_del_archivo]`

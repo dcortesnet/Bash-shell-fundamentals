@@ -1,6 +1,6 @@
 # Comandos de navegación
 
-### Listar Archivos y Directorios
+### Listar archivos y directorios
 
 - `ls`: Listar archivos y directorios en el directorio actual. "Ls" signfica "list"
 
@@ -13,7 +13,7 @@
 - `ls -a`: Listar todos los archivos, incluyendo los ocultos.
   - Ejemplo: `ls -a`
 
-### Navegación de Directorios
+### Navegación de directorios
 
 - `cd`: Cambiar de directorio.
 
