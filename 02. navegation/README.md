@@ -2,7 +2,7 @@
 
 ### Listar archivos y directorios
 
-- `ls`: Listar archivos y directorios en el directorio actual. "Ls" signfica "list"
+- `ls`: Listar archivos y directorios en el directorio actual.
 
   - Ejemplo: `ls`
 
