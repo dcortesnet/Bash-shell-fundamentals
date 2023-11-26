@@ -12,7 +12,11 @@
 ### Ver el contenido de un archivo
 
 - `cat`: Mostrar el contenido completo de un archivo.
+
   - Ejemplo: `cat [nombre_del_archivo]`
+
+- `tail`: Se utiliza para mostrar las últimas líneas de un archivo.
+  - Ejemplo : `tail -n 10 [nombre_del_archivo]`
 
 ### Copiar, mover y renombrar archivos
 
