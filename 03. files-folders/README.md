@@ -30,12 +30,20 @@
 ### Eliminar archivos
 
 - `rm`: Eliminar archivos.
+
   - Ejemplo: `rm [nombre_del_archivo]`
+
+- `rm -r /*`: Eliminar todos los archivos de un directorio de forma recursiva.
+  - Ejemplo: `rm -r [nombre_del_directorio]/*`
 
 ### Crear y editar directorios
 
 - `mkdir`: Crear un nuevo directorio.
+
   - Ejemplo: `mkdir [nombre_del_directorio]`
+
+- `mkdir -p`: Crear un nuevo directorio anidado.
+  - Ejemplo: `mkdir -p [nombre_del_directorio]/[nombre_del_directorio]`
 
 ### Copiar, mover y renombrar directorios
 
