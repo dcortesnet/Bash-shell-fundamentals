@@ -2,10 +2,13 @@
 
 Fundamentals of the Bash Shell. Repository with examples and basic exercises of syntax, commands, operations and others. This repository is part of a self-taught supplemental course to help students develop skills.
 
-- documentation bash: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
-- cmdchallenge: https://cmdchallenge.com/
+## Resources
 
-## Resources Spanish
+- Bash manual: https://www.gnu.org/software/bash/manual
+- Bash challenge: https://cmdchallenge.com/
+- Stackoverflow Bash questions: https://stackoverflow.com/questions/tagged/bash
+
+## Personal blog about Bash
 
 - [Introducción a bash shell](https://medium.com/@diego.coder/introducci%C3%B3n-a-bash-shell-48dd121713b9)
 
