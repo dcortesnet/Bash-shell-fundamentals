@@ -2,14 +2,10 @@
 
 ### Filtrado y búsqueda de texto
 
-- `grep`: Buscar texto dentro de archivos.
+- `grep "[texto_a_buscar]" [nombre_del_archivo]`: Buscar texto dentro de archivos.
 
-  - Ejemplo: `grep "texto_a_buscar" [nombre_del_archivo]`
-
-- `grep -i`: Realizar una búsqueda insensible a mayúsculas y minúsculas.
-  - Ejemplo: `grep -i "Texto" [nombre_del_archivo]`
+- `grep -i "[texto_a_buscar]" [nombre_del_archivo]`: Realizar una búsqueda insensible a mayúsculas y minúsculas.
 
 ### Conteo de palabras, líneas y caracteres
 
-- `wc`: Contar palabras, líneas y caracteres en un archivo.
-  - Ejemplo: `wc [nombre_del_archivo]`
+- `wc [nombre_del_archivo]`: Contar palabras, líneas y caracteres en un archivo.
