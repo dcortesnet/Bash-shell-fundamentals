@@ -1,16 +1,9 @@
-## Ejemplos de comandos con pipe
+## Ejemplos de operadores con pipe
 
-### Sintaxis Básica
+### 1. `|`
 
-La sintaxis básica para utilizar un pipe es:
+El operador | (tubería o pipe) en la línea de comandos se utiliza para redirigir la salida de un comando hacia la entrada de otro comando. Permite encadenar varios comandos en una secuencia, donde la salida de uno se convierte en la entrada del siguiente.
 
 ```bash
-comando1 | comando2
+cat archivo.txt | grep "patrón" | sort
 ```
-
-### Concatenar y filtrar archivos utilizando pipe
-
-- `cat`: Concatenar el contenido de varios archivos y enviarlo a `grep` para filtrar líneas que contengan la palabra "error":
-  ```bash
-  cat archivo1.txt archivo2.txt | grep "error"
-  ```

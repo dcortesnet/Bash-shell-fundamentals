@@ -1,25 +1,34 @@
 # Comandos para variables
 
-### Mostrar variables de entorno
+### 1. `env`
 
-- `env`: Mostrar todas las variables de entorno.
-- `echo $[VARIABLE]`: Mostrar el valor de una variable de entorno específica.
+El comando env se utiliza para mostrar o modificar el entorno de ejecución de un programa. El entorno de ejecución incluye variables de entorno que afectan el comportamiento y configuración del sistema y las aplicaciones.
 
-### Establecer variables de entorno
+```bash
+env
+echo $[VARIABLE] # Mostrar el valor de una variable de entorno específica.
+```
 
-- `export [VARIABLE]=[valor_variable]`: Establecer el valor de una variable de entorno.
+- Variables por defecto
+  - `$HOME`: Ruta al directorio de inicio del usuario.
+  - `$USER` o `$LOGNAME`: Nombre del usuario.
+  - `$PATH`: Lista de directorios donde el sistema busca comandos.
+  - `$PWD`: Ruta al directorio de trabajo actual.
 
-### Modificar variables de entorno
+### 2. `export`
 
-- `export [VARIABLE]=[nuevo_valor_variable]`: Modificar el valor de una variable de entorno existente.
+El comando export se utiliza para establecer o exportar variables de entorno. Cuando creas una variable en una sesión de terminal, esa variable no está disponible automáticamente para otros procesos o sesiones de terminal. El comando export se utiliza para hacer que una variable de entorno sea accesible para procesos secundarios.
 
-### Eliminar variables de entorno
+```bash
+export [VARIABLE]=[valor_variable] # Establecer el valor de una variable de entorno.
+export [VARIABLE]=[nuevo_valor_variable] # Modificar el valor de una variable de entorno existente.
 
-- `unset [VARIABLE]`: Eliminar una variable de entorno.
+```
 
-### Variables específicas
+### 3. `unset`
 
-- `$HOME`: Ruta al directorio de inicio del usuario.
-- `$USER` o `$LOGNAME`: Nombre del usuario.
-- `$PATH`: Lista de directorios donde el sistema busca comandos.
-- `$PWD`: Ruta al directorio de trabajo actual.
+El comando unset se utiliza para eliminar variables de entorno o deshacer asignaciones de variables. Cuando usas unset seguido por el nombre de una variable, elimina esa variable de la sesión de la terminal actual.
+
+```bash
+unset [VARIABLE]
+```

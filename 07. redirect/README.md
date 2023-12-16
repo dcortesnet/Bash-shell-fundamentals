@@ -1,10 +1,17 @@
-# Comandos para redireccionar
+# Operadores para redireccionar
 
-### Redireccionar la salida estándar
+### 1. `>`
 
-- `>`: Redirecciona la salida estándar a un archivo (crea o sobrescribe).
+El operador > en la línea de comandos se utiliza para redirigir la salida estándar de un comando hacia un archivo o para crear y escribir en un archivo. Este operador toma la salida del comando a su izquierda y la redirige hacia el archivo especificado a su derecha, creando o sobrescribiendo el archivo si ya existe.
 
-  - Ejemplo: `ls > lista_archivos.txt`
+```bash
+echo "Hola, mundo" > archivo.txt
+```
 
-- `>>`: Redirecciona la salida estándar a un archivo (anexa al final del archivo existente).
-  - Ejemplo: `echo "Nuevo contenido" >> archivo_existente.txt`
+### 2. `>>`
+
+El operador >> en la línea de comandos se utiliza para redirigir la salida estándar de un comando hacia un archivo, pero a diferencia de >, >> añade la salida al final del archivo en lugar de sobrescribir su contenido.
+
+```bash
+echo "Nueva línea" >> archivo.txt
+```
