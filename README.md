@@ -7,6 +7,7 @@ Fundamentals of the Bash Shell. Repository with examples and basic exercises of 
 - Bash manual: https://www.gnu.org/software/bash/manual
 - Bash challenge: https://cmdchallenge.com/
 - Stackoverflow Bash questions: https://stackoverflow.com/questions/tagged/bash
+- Bash playground onecompiler: https://onecompiler.com/bash
 
 ## Personal blog about Bash
 
