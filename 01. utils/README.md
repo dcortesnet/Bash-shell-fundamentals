@@ -45,3 +45,11 @@ nano
   - Ctrl + O: Guardar el archivo.
   - Ctrl + X: Salir del editor.
   - Ctrl + G: Mostrar ayuda.
+
+### 6. `ping`
+
+Ping se utiliza para verificar la conectividad de red entre dos dispositivos. Cuando ejecutas el comando ping, el sistema envía paquetes de datos a una dirección IP específica o a un nombre de dominio y espera a recibir una respuesta. Esto ayuda a determinar la cantidad de tiempo que tarda un paquete en viajar desde tu computadora hasta el destino y viceversa. Además, te permite verificar la pérdida de paquetes en la red.
+
+```bash
+ping [destino]
+```
