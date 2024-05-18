@@ -1,4 +1,4 @@
-# Comandos de manipulación de textos
+# Comandos de búsqueda de textos
 
 ### 1. `grep`
 
