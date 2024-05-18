@@ -5,8 +5,8 @@
 El comando env se utiliza para mostrar o modificar el entorno de ejecución de un programa. El entorno de ejecución incluye variables de entorno que afectan el comportamiento y configuración del sistema y las aplicaciones.
 
 ```bash
-env
-echo $[VARIABLE] # Mostrar el valor de una variable de entorno específica.
+$ env
+$ echo $[VARIABLE] # Mostrar el valor de una variable de entorno específica.
 ```
 
 - Variables por defecto
@@ -30,5 +30,5 @@ export [VARIABLE]=[nuevo_valor_variable] # Modificar el valor de una variable de
 El comando unset se utiliza para eliminar variables de entorno o deshacer asignaciones de variables. Cuando usas unset seguido por el nombre de una variable, elimina esa variable de la sesión de la terminal actual.
 
 ```bash
-unset [VARIABLE]
+$ unset [VARIABLE]
 ```
