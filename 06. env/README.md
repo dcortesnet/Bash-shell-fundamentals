@@ -5,7 +5,7 @@
 El comando env se utiliza para mostrar o modificar el entorno de ejecución de un programa. El entorno de ejecución incluye variables de entorno que afectan el comportamiento y configuración del sistema y las aplicaciones.
 
 ```bash
-$ env
+$ env # mostrar todas las variables de entorno del sistema
 $ echo $[VARIABLE] # Mostrar el valor de una variable de entorno específica.
 ```
 
@@ -22,7 +22,6 @@ El comando export se utiliza para establecer o exportar variables de entorno. Cu
 ```bash
 export [VARIABLE]=[valor_variable] # Establecer el valor de una variable de entorno.
 export [VARIABLE]=[nuevo_valor_variable] # Modificar el valor de una variable de entorno existente.
-
 ```
 
 ### 3. `unset`
